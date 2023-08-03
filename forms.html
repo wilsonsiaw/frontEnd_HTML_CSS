@@ -17,15 +17,24 @@
 
         form {
             width: 800px;
-            height: 850px;
+            height: auto;
             margin: 0 auto;
-            padding: 50px;
-            margin-top: 40px;
+            padding: 20px;
 
             font-size: 20px;
             box-shadow: 0 2px 15px #005792;
             border-radius: 20px;
             background-color: #fcfefe;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=number],
+        input[type=tel],
+        input[type=date],
+        select {
+            width: 50%;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -66,6 +75,7 @@
             <option value="uganda">Uganda</option>
             <option value="zambia">Zambia</option>
         </select>
+        <br>
         <br>
         <fieldset>
             <legend>User Interests</legend>
