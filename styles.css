@@ -6,3 +6,8 @@ ul {
     border: 1px black solid;
     padding: 20px;
 }
+
+ul li {
+    color: blueviolet;
+    font-weight: bolder;
+}
