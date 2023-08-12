@@ -11,3 +11,7 @@ ul li {
     color: blueviolet;
     font-weight: bolder;
 }
+
+ul li:hover {
+    background-color: aqua;
+}
